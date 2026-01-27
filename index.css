@@ -7,63 +7,10 @@ body {
     width: 100vw;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 1rem 2rem;
-}
 
-ul {
-    display: flex;
-    gap: 2rem;
-}
-
-li {
-    list-style-type: none;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-button.btn {
-    background-color: inherit;
-    color: white;
-    border: 1px solid white;
-    padding: 0.5rem 1rem;
-    border-radius: 1rem;
-    cursor: pointer;
-}
-
-.product-card:first-child {
-    background-color: slategrey;
-}
-
-.products {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 5rem;
-    height: 20rem;
-}
-
-.product-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 0.5rem;
+.div-color {
     background-color: black;
-    color:white;
-    height: 16rem;
-    width: 13rem;
-}
-
-button:hover {
-    scale: 1.1;
-    transition: 0.3s;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
 }
